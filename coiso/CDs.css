@@ -1,0 +1,28 @@
+
+main{
+    
+}
+.Cd{
+    display: flex;
+    border: 1px solid black;
+    width: 30%;
+    border-radius: 10px;
+    font-size: 25px;
+    margin: 1px;
+    float:left;
+
+}
+img .Cd{
+    border: 1px hidden black;
+    border-radius: 10px;
+}
+a{
+    display: flex;
+    justify-content: flex-start;
+}
+a p{
+    padding: 1% 0% 0% 1%;
+}
+footer{
+    clear: both;
+}

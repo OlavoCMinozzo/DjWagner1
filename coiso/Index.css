@@ -1,0 +1,120 @@
+section img{
+    display: flex;
+    height: fit-content;
+    position: relative;
+    padding: 10% 20% 0% 0%;
+}
+section{
+    font-size: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.his article{
+    border-radius: 5px;
+    border:solid 1px black;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 0.3%;
+    margin: 0.2%;
+    min-width: 45%;
+}
+.Olavo{
+    clear: both;
+    text-align: center;
+}
+.Dj{
+    float: right;
+    margin: 0px 100px 0px 50px;
+}
+.Dj img{
+    height: 500px;
+    width: auto;
+    border: 0px;
+    border-radius:5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+nav{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    justify-content: center;
+    border:solid 1px black;
+    color: #E3DECA;
+}
+nav a{
+    text-decoration: none;
+    color: #E3DECA;
+    margin-right: 5%;
+    padding: 1%;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+.login{
+    padding:0.7% 0% 0.7% 10%;
+    color: #E3DECA;
+    width: fit-content;
+}
+.login a{
+    color: #E3DECA;
+    text-decoration: none;
+    padding:1% 0% 1% 10%;
+}
+.login a:hover{
+    text-decoration: underline;
+}
+body{
+    margin:0px;
+    background-color: #E3DECA;
+}
+header{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: 1px black solid;
+    background-color: #B41B2A;
+}
+header h1,header h2{
+    display: flex;
+    justify-content: center;
+}
+.lore{
+    margin-left: 5%;
+    font-size: 200%;
+}
+.lore::first-letter{
+    font-size: 200%;
+}
+.Frases{
+    display: flex;
+}
+.Frases li{
+    border-radius: 5px;
+    border:solid 1px black;
+    padding: 0.3%;
+    margin: 0.2%;
+    max-width: 50%;
+}
+section{
+    font-size: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.his{
+    max-width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+.his:first-child{
+    margin-left:4% ;
+
+}
+.his:last-child{
+    position: relative;
+    float:right;
+    margin-right: 5%;
+    margin-top: -13%;
+}
+.DjWagnerWagner{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+}

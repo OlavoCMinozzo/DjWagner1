@@ -1,0 +1,29 @@
+.centro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    margin: 0%;
+}
+fieldset{
+    margin-top: 50%;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+legend{
+    background-color: lightgray;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 1% 5% 1% 5%;
+    font-size: 30px;
+}
+select, input{
+    transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+select:hover, input:hover{
+    scale:110%;
+}
+select:focus, input:focus{
+    scale:110%;
+}
